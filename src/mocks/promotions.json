@@ -1,22 +1,22 @@
 {
-    "data": [
-      {
-        "id": 1,
-        "title": "Become this week's American Streak Hero!",
-        "description": "GD Treasure Island Maintenanc Island Maintenanc Island Maintenanc Island Maintenanc",
-        "img": "https://sportsbet.imgix.net/2019/August/Sport/NL.jpg"
-      },
-      {
-        "id": 2,
-        "title": "2Become this week's American Streak Hero!",
-        "description": "2GD Treasure Island Maintenanc Island Maintenanc Island Maintenanc Island Maintenanc",
-        "img": "https://via.placeholder.com/600x267"
-      },
-      {
-        "id": 3,
-        "title": "3Become this week's American Streak Hero!",
-        "description": "2GD Treasure Island Maintenanc Island Maintenanc Island Maintenanc Island Maintenanc",
-        "img": "https://via.placeholder.com/400x250"
-      }
-  ]
+	"data": [
+		{
+			"id": 1,
+			"title": "Become this week's American Streak Hero!",
+			"description": "GD Treasure Island Maintenanc Island Maintenanc Island Maintenanc Island Maintenanc",
+			"img": "https://sportsbet.imgix.net/2019/August/Sport/NL.jpg"
+		},
+		{
+			"id": 2,
+			"title": "2Become this week's American Streak Hero!",
+			"description": "2GD Treasure Island Maintenanc Island Maintenanc Island Maintenanc Island Maintenanc",
+			"img": "https://via.placeholder.com/600x267"
+		},
+		{
+			"id": 3,
+			"title": "3Become this week's American Streak Hero!",
+			"description": "2GD Treasure Island Maintenanc Island Maintenanc Island Maintenanc Island Maintenanc",
+			"img": "https://via.placeholder.com/400x250"
+		}
+	]
 }

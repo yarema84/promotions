@@ -5,6 +5,7 @@ import { normalize } from 'styled-normalize'
 export default createGlobalStyle`
     ${normalize}
 
+    /* reset css */
     @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
   	html {
 		font-family: 'Roboto Slab', serif;
