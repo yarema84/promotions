@@ -136,8 +136,8 @@ const PromotionItem = React.memo((props) => {
             onClick={useCallback(() => onClick(index), [index])}>
             <PromoImg imgSrc={img} />
             <StyledPromoLabel>
-                    <PromoLabel />
-                </StyledPromoLabel>
+                <PromoLabel />
+            </StyledPromoLabel>
             <PromoText>
                 <PromoHeader>{title}</PromoHeader>
                 <PromoDescription>{description}</PromoDescription>
@@ -152,6 +152,7 @@ PromotionItem.propTypes = {
         description: PropTypes.string,
         img: PropTypes.string,
     }),
+    index: PropTypes.number,
     active: PropTypes.bool,
     onClick: PropTypes.func
 };
