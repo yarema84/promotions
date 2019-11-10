@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Promotions from "./pages/Promotions";
+import GlobalStyle from "./components/GlobalStyle";
+import { ThemeProvider } from "styled-components";
+import media from "./utils/media";
+
+const theme = {
+	color: {
+		default: "#FFFFFF",
+		primary: "#8697A2",
+		bg: "#1F262F",
+		darkBg: "#1A212A",
+		border: "#FFAB00",
+		btn: "#0CD664",
+		btnHover: "#00E865"
+	},
+	...media
+};
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<ThemeProvider theme={theme}>
+			<>
+				<GlobalStyle />
+				<Promotions/>
+			</>
+		</ThemeProvider>
+	);
 }
 
 export default App;
